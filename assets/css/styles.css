@@ -1,0 +1,150 @@
+
+body{
+    line-height: 1;
+    font-family: 'Open Sans', sans-serif;
+    background:#ffffff;
+    width:100%;
+    margin: 0 auto;
+    color:#4a4a4a;
+}
+section img {width:100%;}
+a:link{color:#4a4a4a;text-decoration: none}
+a:visited{color:#4a4a4a;}
+a:hover{cursor: pointer}
+.clear{clear:both;}
+.container{width:90%; margin:0 auto;}
+:focus{
+  outline-style:none;
+box-shadow:none;
+border-color:transparent;
+}
+/*NAV*/
+header{
+    background:#2d3945;
+    color:#fff;
+    text-align:center;
+}
+header .HeadTitle{
+    margin:0;
+    padding:30px;
+    font-size:22px;
+    text-transform: uppercase;
+}
+
+/*signUp Section*/
+.signUp{
+    text-align:center;
+    border-bottom: 4px solid #2d3945;
+    padding:20px 0;
+    margin-bottom:4px;
+}
+.signUp h2{
+    color:#2d3945;
+}
+.signUp p {
+    color:#a4a9ae;
+}
+
+.form{
+    border-top:2px solid #2d3945;
+    padding-top:40px;
+}
+.form input, .contactForm select, textarea{
+    border:2px solid transparent;
+}
+.form input:focus, .contactForm select:focus, textarea:focus{
+    border:2px solid #46698b;
+}
+/*Form*/
+fieldset{border:none;padding:0;margin:0;}
+label{color:#55687a;font-size:14px;}
+.contactForm legend,.Newsletter legend{
+    padding:20px 0;
+    color:#2d3945;
+    font-size:18px;
+        display: inline-block;
+        font-weight:bold;
+}
+.contactForm label{
+    clear:both;
+    padding:10px 0;
+    float: left;
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+
+.contactForm input,.contactForm select{
+    width:100%;
+    background:#eff0f1;
+    border-radius:6px;
+    padding:15px 0;
+}
+.contactForm #zip{
+    max-width:200px;
+}
+
+/*Newsletter section*/
+.Newsletter{
+    border-top:3px solid #2d3945;
+    padding:10px 0;
+    margin:40px 0;
+}
+.Newsletter p {font-size:14px;}
+.Newsletter label{padding:10px 0;}
+.Newsletter textarea{
+    background:#eff0f1;
+    width:100%;
+    border:none;
+    border-radius:6px;
+    min-height:100px;
+    margin:10px 0;
+}
+.checkWrap{
+    padding: 8px 0;
+}
+
+.btn{
+    background:#4ebbb5;
+    padding:20px 0;
+    margin:10px 0;
+    width:100%;
+    border:none;
+    border-radius:6px;
+    color:#fff;
+    font-size:20px;
+    font-weight:bold;
+
+}
+
+/*FOOTER*/
+.copyright{
+    text-align:center;
+    color:#9da3a8;
+    font-style: italic;
+    font-size:14px;
+}
+
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 760px) {
+/* Styles */
+
+    .container{max-width:760px;}
+    .contactForm legend{float:left;width:100%;}
+    .contactForm label{
+        float:left;
+        margin:15px 0;
+        padding: 15px 20px 15px 0;
+        vertical-align: middle;
+        width:150px;
+    }
+    .contactForm input,.contactForm select{
+        width:74%;
+        float:left;
+        margin:10px 0;
+        padding: 15px 0;
+        vertical-align: middle;
+    }
+      
+
+}

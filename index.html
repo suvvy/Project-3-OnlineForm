@@ -1,0 +1,104 @@
+
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Online Registration Form</title>
+        <meta name="description" content="asdf">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
+    <body>
+    <header>
+            <div class="HeadWrap">
+                <h1 class="HeadTitle">The Code Review</h1>
+            </div>
+    </header>
+    <div class="container">
+      
+        <section class="signUp">
+            <h2>Signup for our newsletter</h2>
+            <p>Get the lastest news on how your code is doing right in your inbox</p>
+        </section>
+
+            <form class="form">
+
+                <fieldset class="contactForm">
+                    
+                    <legend>Contact Information</legend>
+                  
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="FullName" required>
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="Email" required>
+
+                    <label for="password">Phone Number</label>
+                    <input type="password" id="password" name="Password">
+
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="City">
+
+                    <label for="state">State</label>
+                    <select name="state" id="state">
+                        <option>AZ</option>
+                        <option>CA</option>
+                        <option>OH</option>
+                        <option>NC</option>
+                    </select>
+
+                    <label for="zip">Zip Code</label>
+                    <input type="text" id="zip" name="Zip">
+                  
+                </fieldset>
+
+                <fieldset class="Newsletter">
+                      
+                       <legend>Newsletter</legend>
+                        <div>
+                            <p>Select the newsletters you would like to recieve</p>
+                            <div class="checkWrap">
+                                 <input type="checkbox" name="html_news" id="htmlNews" value="html_news">
+                                 <label for="htmlNews">HTML News</label><br>
+                            </div>
+                            <div  class="checkWrap">
+                                <input type="checkbox" name="css_news" id="cssNews" value="css_news">
+                                <label for="cssNews">CSS News</label><br>
+                            </div>
+                            <div  class="checkWrap">
+                                <input type="checkbox" name="js_news" id="jsNews" value="js_news">
+                                <label for="jsNews">Javascript News</label>
+                            </div> 
+                        </div>
+
+                        <div>
+                            <p>Newsletter format</p>
+                            <div  class="checkWrap">
+                                <input type="radio" name="news" id="html" value="html">
+                                <label for="html">HTML</label><br>
+                            </div>
+                            <div  class="checkWrap">
+                                <input type="radio" name="news" id="plainText" value="plainText">
+                                <label for="plainText">Plain Text</label><br>
+                            </div>
+                        </div>
+                        <div class="checkWrap">
+                            <label for="comment">Other Topics you'd like to hear about</label>
+                            <textarea id="comment" class="textArea"></textarea>
+                        </div>
+                   
+                     <button type="submit" class="btn">Sign Up</button>
+                     <div class="copyright">
+                        <p>Copyright The Code Review</p>
+                     </div>
+                </fieldset>
+               
+            </form>
+
+    </div>
+
+    
+    </body>
+</html>
