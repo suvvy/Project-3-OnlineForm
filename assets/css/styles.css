@@ -18,6 +18,42 @@ a:hover{cursor: pointer}
 box-shadow:none;
 border-color:transparent;
 }
+.form input::-webkit-input-placeholder { /* WebKit browsers */
+    color:#aaa;
+    font-size:14px;
+    font-style: italic;
+    text-align:right;
+    padding-right:5px;
+}
+.form input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:#aaa;
+    font-size:14px;
+    font-style: italic;
+    text-align:right;
+    padding-right:5px;
+   
+
+}
+.form input::-moz-placeholder { /* Mozilla Firefox 19+ */
+
+     color:#aaa;
+    font-size:14px;
+    font-style: italic;
+    text-align:right;
+    padding-right:5px;
+    
+
+}
+.form input:-ms-input-placeholder { /* Internet Explorer 10+ */
+
+    color:#aaa;
+    font-size:14px;
+    font-style: italic;
+    text-align:right;
+    padding-right:5px;
+ 
+ 
+}
 /*NAV*/
 header{
     background:#2d3945;
@@ -78,6 +114,7 @@ label{color:#55687a;font-size:14px;}
     background:#eff0f1;
     border-radius:6px;
     padding:15px 0;
+    position:relative;
 }
 .contactForm #zip{
     max-width:200px;
@@ -139,10 +176,10 @@ label{color:#55687a;font-size:14px;}
         width:150px;
     }
     .contactForm input,.contactForm select{
-        width:74%;
+        width:73%;
         float:left;
         margin:10px 0;
-        padding: 15px 0;
+        padding: 15px;
         vertical-align: middle;
     }
       
