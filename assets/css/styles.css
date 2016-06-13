@@ -175,8 +175,14 @@ label{color:#55687a;font-size:14px;}
         vertical-align: middle;
         width:150px;
     }
-    .contactForm input,.contactForm select{
+    .contactForm input{
         width:70%;
+    }
+    .contactForm select{
+        width:74.5%;
+    }
+    .contactForm input,.contactForm select{
+        
         float:left;
         margin:10px 0;
         padding: 15px;
